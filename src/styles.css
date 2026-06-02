@@ -300,7 +300,7 @@ p {
 
 .problem-grid article,
 .review-grid blockquote,
-.form-placeholder,
+.booking-panel,
 .certification-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -492,26 +492,28 @@ details p {
   color: var(--maroon-dark);
 }
 
-.form-placeholder {
-  display: grid;
-  align-content: center;
-  min-height: 360px;
+.booking-panel {
+  overflow: hidden;
+  min-height: 500px;
   border-color: rgba(255, 255, 255, 0.28);
-  padding: clamp(24px, 5vw, 40px);
-  background: rgba(255, 255, 255, 0.1);
+  background: #fff;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.18);
 }
 
-.form-placeholder span {
-  margin-bottom: 16px;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.78rem;
-  font-weight: 900;
-  text-transform: uppercase;
+.zen-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-.form-placeholder h3,
-.form-placeholder p {
-  color: #fff;
+.zenbooker-inline-widget {
+  min-width: 320px;
+  height: 500px;
+  border: 0;
+  border-radius: 8px;
+  vertical-align: bottom;
 }
 
 .site-footer {
