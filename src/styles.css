@@ -173,6 +173,23 @@ p {
   text-transform: uppercase;
 }
 
+.hero-copy > .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: calc(0.78rem + 2px);
+}
+
+.hero-copy > .eyebrow::before {
+  display: inline-block;
+  width: 22px;
+  height: 2px;
+  flex: 0 0 22px;
+  border-radius: 999px;
+  background: var(--cool-dark);
+  content: "";
+}
+
 .hero-lede {
   max-width: 680px;
   color: #334155;
