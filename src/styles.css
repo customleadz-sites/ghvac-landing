@@ -420,6 +420,14 @@ p {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.services-section .eyebrow {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 7px 12px;
+  color: #fff;
+  background: var(--maroon);
+}
+
 .service-card {
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(23, 32, 42, 0.08);
